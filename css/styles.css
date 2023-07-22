@@ -1,4 +1,21 @@
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+margin-left: 0;
+margin-top: 0;
+margin-bottom: 0;
+}
+
 :root {
     --main--cl: #434455;
     --footer--cl: #F4F4FD;
@@ -21,22 +38,7 @@ body{
     list-style-type: none;
 }
 
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin-top: 0;
-    margin-bottom: 0;
-}
 
-ul {
-margin-left: 0;
-margin-top: 0;
-margin-bottom: 0;
-}
 
 img{display: block;}
 
