@@ -223,10 +223,11 @@ letter-spacing: 0.04em;
     padding-left: 0px 156px;
     display: flex; 
     gap: 24px;
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
 .advantages-item {
-    flex-basis: calc((100% - 3 * 24px) / 4)
+    
 }
 
 .advantages-subtitle {
