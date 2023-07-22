@@ -216,7 +216,7 @@ letter-spacing: 0.04em;
 }
 
 .advantages {
-    padding: 120px 0
+    padding: 120px 0;
 }
 
 .advantages-list {
@@ -406,7 +406,7 @@ letter-spacing: 0.02em;
     font-weight: 800;
     line-height: 1.17; 
     letter-spacing: 0.03em;
-    text-transform: uppercase 
+    text-transform: uppercase; 
 }
 
 .footer-logo-color {
@@ -416,7 +416,7 @@ letter-spacing: 0.02em;
     font-weight: 800;
     line-height: 1.17; 
     letter-spacing: 0.03em;
-    text-transform: uppercase 
+    text-transform: uppercase; 
     
 }
 
