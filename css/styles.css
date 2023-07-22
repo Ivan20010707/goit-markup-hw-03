@@ -226,7 +226,7 @@ letter-spacing: 0.04em;
 }
 
 .advantages-item {
-    flex-basis: calc((100% - 3 * 24px) / 4)
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .advantages-subtitle {
