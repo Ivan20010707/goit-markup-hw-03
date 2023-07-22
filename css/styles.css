@@ -3,6 +3,7 @@
     --main--cl: #434455;
     --footer--cl: #F4F4FD;
     --logos--cl: #2e2f42;
+    --logobtm--cl:#4d5ae5;
 }
 
 body{
@@ -168,13 +169,13 @@ img{display: block;}
 /*! -----main----- */
 
 .hero {
-   padding-bottom: 120px;
+    padding: 188px 0
 }
 
-.hero-wrap{
+/* .hero-wrap{
     background-color: var(--navyblue, #2E2F42);
-    padding: 188px 472px 188px 472px;
-}
+    padding: 188px 472px 188px 472px; */
+
 
 .hero-title {
     color: var(--white, #FFF);
@@ -188,10 +189,15 @@ margin-bottom: 48px;
 }
 
 .hero-btn {
-    background-color: var(--iris, #4D5AE5);
+    background-color: var(--logobtm--c);
     padding: 16px 32px;
     border-radius: 4px;
     border: none;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    cursor: pointer;
 }
  
 .hero-btn:hover
@@ -303,6 +309,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-bottom: 8px
 }
 .team-text {
     color: varvar(--main--cl);
@@ -314,7 +321,8 @@ letter-spacing: 0.02em;
 }
 
 .portfolio {
-    padding-top: 96px;
+    padding-top: 96px; 
+    padding-bottom: 120px;
 }
 
 .navigation {
