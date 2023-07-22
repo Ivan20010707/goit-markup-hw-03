@@ -303,6 +303,7 @@ margin-bottom: 72px;
     padding-bottom: 32px;
     border-radius: 0px 0px 4px 4px;
 background: var(--white, #FFF);
+flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .team-name{
