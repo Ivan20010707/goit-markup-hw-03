@@ -192,6 +192,7 @@ font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
 max-width: 496px;
+margin: 0 auto;
 margin-bottom: 48px;
 }
 
@@ -205,6 +206,7 @@ margin-bottom: 48px;
     height: 56px;
     border-radius: 4px;
     cursor: pointer;
+    margin: 0 auto;
 }
  
 .hero-btn:hover
@@ -228,7 +230,7 @@ letter-spacing: 0.04em;
 }
 
 .advantages-list {
-    padding-left: 0px 156px;
+    padding: 0; 
     display: flex; 
     gap: 24px;
 }
@@ -264,7 +266,7 @@ letter-spacing: 0.02em;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    max-width: 323px; 
+    /* max-width: 323px;  */
     margin: 0 auto; 
     margin-bottom: 72px;
 }
@@ -374,14 +376,13 @@ border-radius: 4px;
 .portfolio-name{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
-    border-top: none;
-    margin-bottom: 8px; 
+    border-top: none; 
 }
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
     gap: 32px;
-    padding-bottom: 32px;
+    padding: 0;
     column-gap: 24px;
     row-gap: 48px;
 }
@@ -390,7 +391,7 @@ border-radius: 4px;
 }
 
 .portfolio-img{
-    margin-bottom: 32px;
+    
 }
 
 .portfolio-subtitle {
