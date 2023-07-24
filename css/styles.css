@@ -31,7 +31,6 @@ body{
 
 .link {
     text-decoration: none;
-    
 }
 
 .list {
@@ -104,19 +103,16 @@ img{display: block;}
     
 }
 
-.header-logo:hover
+.header-logo:hover,
+.header-logo:focus
  {
     color: #404bbf;
-}
-
-.header-logo-color:focus
- {
-    color:#404bbf;
 }
 
 .header-menu-list {
     display: flex;
     gap: 40px;
+    padding-left: 0%;
 }
 
 .header-menu-link {
@@ -141,6 +137,7 @@ img{display: block;}
     display: flex;
     gap: 40px;
     margin-right: 156px;
+    padding-left: 0%;
 }
 
 .header-mailto {
@@ -154,21 +151,18 @@ img{display: block;}
 }
 
 
-.header-mailto {
+/* .header-mailto {
     color: var(--main--cl);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24p1.5;
+    line-height: 24.5;
     letter-spacing: 0.02em;  
-}
+} */
 
-.header-mailto:hover {
-    color: #404bbf
-}
-.header-mailto:focus
-{
+.header-mailto:hover,
+.header-mailto:focus {
     color: #404bbf
 }
 
@@ -209,6 +203,7 @@ margin-bottom: 48px;
     margin: 0 auto;
 }
  
+.hero-btn:hover,
 .hero-btn:hover
 {
     background-color: #404BBF;
@@ -273,7 +268,7 @@ letter-spacing: 0.02em;
 .work-item {
     display: flex;
     gap: 24px;
-    
+    padding-left: 0%;
 }
 .work-list {
     flex-basis: calc((100% - 48px) / 3)
@@ -299,6 +294,7 @@ margin-bottom: 72px;
 .team-item {
     display: flex;
     gap: 24px;
+    padding-left: 0%;
 }
 .team-list {
     background-color: #FFFFFF;
@@ -338,12 +334,15 @@ letter-spacing: 0.02em;
 .navigation {
 }
 .navigation-item {
+    margin-bottom: 0%;
+    
 }
 .navigation-list {
     display: flex;
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
+    padding-left: 0%;
 }
 
 .navigation-btn{
@@ -366,7 +365,7 @@ border-radius: 4px;
 }
 
 .navigation-btn:hover,
-:focus
+.navigation-btn:focus
  {
     color: #FFFFFF;
     background-color: #404BBF;
@@ -445,4 +444,5 @@ letter-spacing: 0.02em;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+max-width: 264px;
 }
